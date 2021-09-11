@@ -1,6 +1,11 @@
 from inspect import isfunction
 import re
 
+init = {
+    "int": int,
+    "float": float,
+}
+
 INDENT_STEP = 4
 
 class CodeBuilder:
